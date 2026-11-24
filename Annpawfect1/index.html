@@ -1,0 +1,1015 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AnnPawfect Care | Pet Shop and Pet Care</title>
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: Cambria;
+            background-color: #fffaf5;
+            color: #333;
+        }
+
+        .navbar {
+            background-color: #5b8065;
+        }
+
+        .navbar-brand, .nav-link {
+            color: white !important;
+            font-weight: bold;
+        }
+
+        .nav-link:hover {
+            color: #ffe4b5 !important;
+        }
+
+        .hero {
+            background: linear-gradient(120deg, #dcebdc, #fff0db);
+            padding: 90px 20px;
+            text-align: center;
+        }
+
+        .hero h1 {
+            color: #41634b;
+            font-size: 45px;
+            font-weight: bold;
+        }
+
+        .section {
+            padding: 65px 20px;
+        }
+
+        .section-title {
+            color: #41634b;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 35px;
+        }
+
+        .pet-card {
+            border: none;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 3px 12px rgba(0,0,0,0.10);
+            height: 100%;
+            transition: 0.3s;
+        }
+
+        .pet-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .pet-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .btn-pet {
+            background-color: #5b8065;
+            color: white;
+            border: none;
+        }
+
+        .btn-pet:hover {
+            background-color: #41634b;
+            color: white;
+        }
+
+        .light-section {
+            background-color: #edf4ec;
+        }
+
+        .price {
+            color: #41634b;
+            font-size: 20px;
+            font-weight: bold;
+        }
+.service-img {
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+    object-fit: contain;
+    border-radius: 30px;
+    margin-bottom: 15px;
+    display: block;
+}
+
+
+.info-box {
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+    height: 100%;
+}
+
+.info-box h4 {
+    margin-bottom: 10px;
+}
+
+.info-box p {
+    line-height: 1.4;
+    margin-bottom: 8px;
+}
+
+.info-box .price {
+    margin-top: 12px;
+    margin-bottom: 8px;
+}
+
+.info-box small {
+    display: block;
+    margin-top: 5px;
+}
+
+        .calculator {
+            background-color: white;
+            padding: 30px;
+            border-radius: 15px;
+            max-width: 600px;
+            margin: auto;
+            box-shadow: 0 3px 12px rgba(0,0,0,0.10);
+        }
+
+        footer {
+            background-color: #41634b;
+            color: white;
+            padding: 25px;
+            text-align: center;
+        }
+
+        section {
+            scroll-margin-top: 70px;
+        }
+
+        .form-control, .form-select {
+            padding: 10px;
+        }
+
+        .adoption-card img {
+            height: 230px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- NAVIGATION BAR -->
+<nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+    <div class="container">
+
+        <a class="navbar-brand" href="#home">🐾AnnPawfect Care</a>
+
+        <button class="navbar-toggler" type="button"
+            data-bs-toggle="collapse" data-bs-target="#menu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#products">Products</a></li>
+                <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                <li class="nav-item"><a class="nav-link" href="#guides">Pet Care</a></li>
+                <li class="nav-item"><a class="nav-link" href="#calculator">Calculator</a></li>
+                <li class="nav-item"><a class="nav-link" href="#adoption">Adoption</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+
+    </div>
+</nav>
+
+
+<!-- 1. HOME SECTION -->
+<section class="hero" id="home">
+    <div class="container">
+        <h1>Welcome to AnnPawfect Care!</h1>
+
+        <p class="lead mt-3">
+            Your Pet's Happiness, Our Priority!
+        </p>
+
+        <p>
+        Your one-stop shop for quality pet essentials, grooming, and veterinary services. Because happy pets start with proper care!
+        </p>
+
+        <a href="#products" class="btn btn-pet btn-lg mt-3">
+            Explore Our Products
+        </a>
+    </div>
+</section>
+
+
+<!-- 2. ABOUT SECTION -->
+<section class="section" id="about">
+    <div class="container">
+
+        <h2 class="section-title">About AnnPawfect Care</h2>
+
+        <div class="row align-items-center">
+
+            <div class="col-md-6 mb-4">
+                <img
+                    src="tom chip.jpg"
+                    alt="A happy dog enjoying time outdoors"
+                    class="img-fluid rounded-4">
+            </div>
+
+            <div class="col-md-6">
+                <h3><strong>We Care for Your Pets!</strong></h3>
+
+                <p>
+                    Pawfect Care is a pet shop and pet care website
+                    dedicated to helping pet owners provide the best
+                    care for their beloved animals.
+                </p>
+
+                <h5><strong>Our Mission</strong></h5>
+                <p>
+                    To provide quality pet products and useful
+                    information that promote responsible pet ownership.
+                </p>
+
+                <h5><strong>Our Vision</strong></h5>
+                <p>
+                    To become a trusted place where every pet receives
+                    proper nutrition, health care, and affection.
+                </p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<!-- 3. PRODUCT CATALOG -->
+<section class="section light-section" id="products">
+    <div class="container">
+
+        <h2 class="section-title">Our Pet Products</h2>
+
+        <p class="text-center mb-4">
+            Choose from our selection of pet food, supplies, and accessories.
+        </p>
+
+        <!-- SEARCH AND FILTER -->
+        <div class="row g-3 mb-4">
+
+            <div class="col-md-4">
+                <input type="text" id="searchProduct"
+                    class="form-control"
+                    placeholder="Search products..."
+                    aria-label="Search products">
+            </div>
+
+            <div class="col-md-4">
+                <select id="petFilter" class="form-select"
+                    aria-label="Filter by pet type">
+                    <option value="all">All Pets</option>
+                    <option value="dog">Dog</option>
+                    <option value="cat">Cat</option>
+                    <option value="accessory">Accessory and Toy</option>
+                </select>
+            </div>
+
+            <div class="col-md-4">
+                <select id="ageFilter" class="form-select"
+                    aria-label="Filter by age or category">
+                    <option value="all">All Categories</option>
+                    <option value="adult">Adult</option>
+                    <option value="puppy">Puppy</option>
+                    <option value="kitten">Kitten</option>
+                    <option value="accessory">Accessory and Toy</option>
+                </select>
+            </div>
+
+        </div>
+
+        <!-- PRODUCT CARDS -->
+        <div class="row g-4" id="productList">
+
+            <!-- DOG ADULT -->
+            <div class="col-md-4 product-item" data-pet="dog" data-age="adult">
+                <div class="card pet-card">
+                    <img src="adult beef.jpg"
+                        alt="Dry dog food in a bowl">
+                    <div class="card-body">
+                        <h5><strong>Adult Dog Food - Beef</strong></h5>
+                        <p>Nutritious beef-flavored food for adult dogs.</p>
+                        <p class="price">₱250</p>
+                        <button class="btn btn-pet"
+                            onclick="showProduct('Adult Dog Food - Beef',250)">
+                            View Product
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 product-item" data-pet="dog" data-age="adult">
+                <div class="card pet-card">
+                    <img src="adult chik.jpg"
+                        alt="Dog food in a pet bowl">
+                    <div class="card-body">
+                        <h5><strong>Adult Dog Food - Chicken</strong></h5>
+                        <p>Chicken-flavored food for adult dogs.</p>
+                        <p class="price">₱230</p>
+                        <button class="btn btn-pet"
+                            onclick="showProduct('Adult Dog Food - Chicken',230)">
+                            View Product
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- DOG PUPPY -->
+            <div class="col-md-4 product-item" data-pet="dog" data-age="puppy">
+                <div class="card pet-card">
+                    <img src="pup beef.jpg"
+                        alt="Young puppy">
+                    <div class="card-body">
+                        <h5><strong>Puppy Food - Beef</strong></h5>
+                        <p>Food formulated for growing puppies.</p>
+                        <p class="price">₱320</p>
+                        <button class="btn btn-pet"
+                            onclick="showProduct('Puppy Food - Beef',320)">
+                            View Product
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 product-item" data-pet="dog" data-age="puppy">
+                <div class="card pet-card">
+                    <img src="pup chik.jpg"
+                        alt="Cute puppy eating">
+                    <div class="card-body">
+                        <h5><strong>Puppy Food - Chicken</strong></h5>
+                        <p>Chicken-flavored food for young dogs.</p>
+                        <p class="price">₱240</p>
+                        <button class="btn btn-pet"
+                            onclick="showProduct('Puppy Food - Chicken',340)">
+                            View Product
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CAT ADULT -->
+            <div class="col-md-4 product-item" data-pet="cat" data-age="adult">
+                <div class="card pet-card">
+                    <img src="adu fish.jpg"
+                        alt="Cat eating pet food">
+                    <div class="card-body">
+                        <h5><strong>Adult Cat Food - Fish</strong></h5>
+                        <p>Fish-flavored food for adult cats.</p>
+                        <p class="price">₱600</p>
+                        <button class="btn btn-pet"
+                            onclick="showProduct('Adult Cat Food - Fish',600)">
+                            View Product
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 product-item" data-pet="cat" data-age="adult">
+                <div class="card pet-card">
+                    <img src="chik.jpg"
+                        alt="Pet food in a bowl">
+                    <div class="card-body">
+                        <h5><strong>Adult Cat Food - Chicken</strong></h5>
+                        <p>Chicken-flavored food for adult cats.</p>
+                        <p class="price">₱330</p>
+                        <button class="btn btn-pet"
+                            onclick="showProduct('Adult Cat Food - Chicken',330)">
+                            View Product
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- KITTEN -->
+            <div class="col-md-4 product-item" data-pet="cat" data-age="kitten">
+                <div class="card pet-card">
+                    <img src="kit fish.jpg"
+                        alt="Young kitten">
+                    <div class="card-body">
+                        <h5><strong>Kitten Food - Fish</strong></h5>
+                        <p>Food designed for growing kittens.</p>
+                        <p class="price">₱280</p>
+                        <button class="btn btn-pet"
+                            onclick="showProduct('Kitten Food - Fish',280)">
+                            View Product
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 product-item" data-pet="cat" data-age="kitten">
+                <div class="card pet-card">
+                    <img src="kit chik.jpg"
+                        alt="Cute kitten">
+                    <div class="card-body">
+                        <h5><strong>Kitten Food - Chicken</strong></h5>
+                        <p>Chicken-flavored food for kittens.</p>
+                        <p class="price">₱290</p>
+                        <button class="btn btn-pet"
+                            onclick="showProduct('Kitten Food - Chicken',290)">
+                            View Product
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ACCESSORIES and TOYS -->
+            <div class="col-md-4 product-item" data-pet="accessory" data-age="accessory">
+                <div class="card pet-card">
+                    <img src="dog.jpg"
+                        alt="Pet toys and accessories">
+                    <div class="card-body">
+                        <h5><strong>Pet Toys</strong></h5>
+                        <p>Fun toys to keep your pets entertained.</p>
+                        <p class="price">₱150</p>
+                        <button class="btn btn-pet"
+                            onclick="showProduct('Pet Toys',150)">
+                            View Product
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 product-item" data-pet="accessory" data-age="accessory">
+                <div class="card pet-card">
+                    <img src="leash.jpg"
+                        alt="Pet collar and leash">
+                    <div class="card-body">
+                        <h5><strong>Collar and Leash</strong></h5>
+                        <p>Comfortable accessories for daily walks.</p>
+                        <p class="price">₱200</p>
+                        <button class="btn btn-pet"
+                            onclick="showProduct('Collar and Leash',200)">
+                            View Product
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <p id="noProducts" class="text-center mt-4" style="display:none;">
+            No products found. Please try another search.
+        </p>
+    </div>
+</section>
+
+
+<!-- 4. SERVICES SECTION -->
+<section class="section" id="services">
+    <div class="container">
+
+        <h2 class="section-title">Our Pet Care Services</h2>
+
+        <div class="row g-4">
+
+            <div class="col-md-4">
+                <div class="info-box text-center">
+                    <h1>🩺</h1>
+                    <h4><strong>Veterinary Consultation</strong></h4>
+                    <img src="chipsvet.jpg"
+             alt="Veterinary Consultation"
+             class="service-img">
+                    <p>Health assessments and consultations to keep your pets healthy</p>
+                    <p class="price">₱500</p>
+                    <small>Starting rate per consultation</small>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="info-box text-center">
+                    <h1>🛁</h1>
+                    <h4><strong>Pet Grooming</strong></h4>
+                <img src="groom.png" alt="Pet Grooming" class="service-img">
+		<p>Bathing, brushing, nail trimming, and basic grooming.</p>
+                    <p class="price">₱350</p>
+                    <small>Starting rate; depends on pet size</small>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="info-box text-center">
+                    <h1>🏠</h1>
+                    <h4><strong>Pet Boarding</strong></h4>
+                    <img src="cat.png" alt="Pet Boarding" class="service-img">
+		<p>A safe and comfortable place for pets while owners are away.</p>
+                    <p class="price">₱600</p>
+                    <small>Starting rate per day</small>
+                </div>
+            </div>
+
+        </div>
+
+        <p class="text-center text-muted mt-4">
+            Sample service rates only. Actual rates may vary.
+            Contact the clinic for confirmation.
+        </p>
+
+    </div>
+</section>
+
+
+<!-- 5. PET CARE GUIDES -->
+<section class="section light-section" id="guides">
+    <div class="container">
+
+        <h2 class="section-title">Pet Care Guides</h2>
+
+        <div class="row g-4">
+
+            <div class="col-md-4">
+                <div class="info-box">
+                    <h4>🍖 Proper Nutrition</h4>
+                    <p>
+                        Provide balanced food suitable for your pet's
+                        age, size, activity, and health needs.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="info-box">
+                    <h4>🧼 Cleanliness and Hygiene</h4>
+                    <p>
+                        Keep food bowls, bedding, and living areas clean.
+                        Groom your pets regularly.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="info-box">
+                    <h4>❤️ Love and Exercise</h4>
+                    <p>
+                        Give your pets enough attention, playtime,
+                        exercise, and a comfortable environment.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+        <h3 class="text-center mt-5 mb-4">
+            Vaccination Schedule Reference
+        </h3>
+
+        <div class="table-responsive">
+            <table class="table table-bordered table-striped bg-white">
+
+                <thead class="table-success">
+                    <tr>
+                        <th>Pet</th>
+                        <th>Vaccine</th>
+                        <th>General Schedule Reference</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Dog</td>
+                        <td>Core combination vaccine</td>
+                        <td>Series beginning around 6–8 weeks, with repeat doses as advised by a veterinarian.</td>
+                    </tr>
+
+                    <tr>
+                        <td>Dog</td>
+                        <td>Rabies</td>
+                        <td>Often given from around 12 weeks, subject to local rules and veterinary advice.</td>
+                    </tr>
+
+                    <tr>
+                        <td>Cat</td>
+                        <td>Core combination vaccine</td>
+                        <td>Series beginning around 6–8 weeks, with repeat doses as advised by a veterinarian.</td>
+                    </tr>
+
+                    <tr>
+                        <td>Cat</td>
+                        <td>Rabies</td>
+                        <td>Often given from around 12 weeks, subject to local rules and veterinary advice.</td>
+                    </tr>
+                </tbody>
+
+            </table>
+        </div>
+
+        <p class="text-muted">
+            Important: Vaccine schedules depend on
+            age, health, vaccine product, and local requirements.
+            Always consult a licensed veterinarian.
+        </p>
+
+    </div>
+</section>
+
+
+<!-- 6. PET FOOD CALCULATOR -->
+<section class="section" id="calculator">
+    <div class="container">
+
+        <h2 class="section-title">Pet Food Portion Calculator</h2>
+
+        <p class="text-center mb-4">
+            Enter your pet's information to see an illustrative daily
+            food estimate.
+        </p>
+
+        <div class="calculator">
+
+            <div class="mb-3">
+                <label for="petType" class="form-label">Pet Type</label>
+                <select id="petType" class="form-select">
+                    <option value="dog">Dog</option>
+                    <option value="cat">Cat</option>
+                </select>
+            </div>
+
+            <div class="mb-3">
+                <label for="petAge" class="form-label">Pet Age Group</label>
+                <select id="petAge" class="form-select">
+                    <option value="adult">Adult</option>
+                    <option value="young">Puppy / Kitten</option>
+                </select>
+            </div>
+
+            <div class="mb-3">
+                <label for="petWeight" class="form-label">
+                    Pet Weight (kg)
+                </label>
+                <input type="number" id="petWeight"
+                    class="form-control" min="0.1" step="0.1"
+                    placeholder="Example: 5">
+            </div>
+
+            <button class="btn btn-pet w-100"
+                onclick="calculateFood()">
+                Calculate Portion
+            </button>
+
+            <div id="foodResult" class="alert alert-success mt-4"
+                style="display:none;" aria-live="polite">
+            </div>
+
+            <p class="text-muted mt-3 small">
+                Actual food portions depend on
+                calorie density, body condition, activity, age, and health.
+                Follow the food manufacturer's feeding guide and ask your
+                veterinarian for an appropriate feeding plan.
+            </p>
+
+        </div>
+
+    </div>
+</section>
+
+
+<!-- 7. ADOPTION GALLERY -->
+<section class="section light-section" id="adoption">
+    <div class="container">
+
+        <h2 class="section-title">Adoption Gallery</h2>
+
+        <p class="text-center mb-4">
+            Give a loving home to a pet waiting for a family.
+        </p>
+
+        <div class="row g-4">
+
+            <div class="col-md-4">
+                <div class="card pet-card adoption-card">
+                    <img src="chips3.jpg"
+                        alt="Friendly golden dog available for adoption">
+                    <div class="card-body text-center">
+                        <h5>Chippy</h5>
+                        <p>Playful dog who loves the outdoors. Just keep the fatty meat away and bring on the egg cracklets!</p>
+                        <button class="btn btn-pet"
+                            onclick="adoptionInfo('Chippy')">
+                            Meet Chippy
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card pet-card adoption-card">
+                    <img src="tom.jpg"
+                        alt="Cute kitten available for adoption">
+                    <div class="card-body text-center">
+                        <h5>Tomtom</h5>
+                        <p>Loves spending his time exploring the outdoors, but always finds his way back home for mealtime and gentle pets on his fur.</p>
+                        <button class="btn btn-pet"
+                            onclick="adoptionInfo('Tomtom')">
+                            Meet Tomtom
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card pet-card adoption-card">
+                    <img src="pooh.jpg"
+                        alt="Happy duck available for adoption">
+                    <div class="card-body text-center">
+                        <h5>Pohpooh</h5>
+                        <p>A duck that catches slippers like a dog!</p>
+                        <button class="btn btn-pet"
+                            onclick="adoptionInfo('Max')">
+                            Meet Pohpooh
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<!-- CONTACT SECTION -->
+<section class="section" id="contact">
+    <div class="container">
+
+        <h2 class="section-title">Contact Us</h2>
+
+        <div class="row g-4">
+
+            <div class="col-md-6">
+
+                <div class="info-box">
+
+                    <h4>Get in Touch!</h4>
+
+                    <p>📍 Location: Betterliving Subd., Parañaque City, Philippines</p>
+                    <p>📞 Phone: 0912-345-6789</p>
+                    <p>✉️ Email: annpawfectcare@adu.com</p>
+
+                    <hr>
+
+                    <h5>Clinic Hours</h5>
+
+                    <p>Monday – Saturday: 8:00 AM – 6:00 PM</p>
+                    <p>Sunday: 9:00 AM – 3:00 PM</p>
+
+                    <p class="text-muted small">
+                        Contact details and operating hours.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="col-md-6">
+
+                <div class="info-box">
+
+                    <h4>Send Us a Message</h4>
+
+                    <form id="contactForm">
+
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Your Name</label>
+                            <input type="text" id="name"
+                                class="form-control" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email Address</label>
+                            <input type="email" id="email"
+                                class="form-control" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea id="message" class="form-control"
+                                rows="3" required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-pet w-100">
+                            Send Message
+                        </button>
+
+                    </form>
+
+                    <p id="contactResult" class="mt-3"
+                        aria-live="polite"></p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- GOOGLE MAP -->
+        <h4 class="text-center mt-5 mb-3">Find Our Location</h4>
+
+        <div class="ratio ratio-16x9">
+            <iframe
+                src="https://maps.google.com/maps?q=Paranaque%20City%2C%20Philippines&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                title="Map of Parañaque City, Philippines"
+                loading="lazy"
+                allowfullscreen>
+            </iframe>
+        </div>
+
+        <p class="text-muted small mt-2 text-center">
+            Map shows the general Parañaque City area. Replace it with
+            the actual location when available.
+        </p>
+
+    </div>
+</section>
+
+
+<!-- FOOTER -->
+<footer>
+    <h4>AnnPawfect Care</h4>
+
+    <p>Happy Pets, Happy Life!</p>
+
+    <p class="mb-0">
+        &copy; 2026 AnnPawfect Care. All Rights Reserved.
+    </p>
+</footer>
+
+
+<!-- BOOTSTRAP JAVASCRIPT -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+
+<!-- CUSTOM JAVASCRIPT -->
+<script>
+
+// PRODUCT SEARCH AND FILTER
+
+function filterProducts() {
+
+    let search = document.getElementById("searchProduct")
+        .value.toLowerCase();
+
+    let pet = document.getElementById("petFilter").value;
+    let age = document.getElementById("ageFilter").value;
+
+    let products = document.querySelectorAll(".product-item");
+
+    let count = 0;
+
+    products.forEach(function(product) {
+
+        let name = product.innerText.toLowerCase();
+
+        let productPet = product.getAttribute("data-pet");
+        let productAge = product.getAttribute("data-age");
+
+        let matchSearch = name.includes(search);
+
+        let matchPet = pet === "all" || productPet === pet;
+
+        let matchAge = age === "all" || productAge === age;
+
+        if (matchSearch && matchPet && matchAge) {
+
+            product.style.display = "block";
+            count++;
+
+        } else {
+
+            product.style.display = "none";
+
+        }
+
+    });
+
+    document.getElementById("noProducts").style.display =
+        count === 0 ? "block" : "none";
+
+}
+
+// Run the filter whenever the user types or changes a selection.
+
+document.getElementById("searchProduct")
+    .addEventListener("input", filterProducts);
+
+document.getElementById("petFilter")
+    .addEventListener("change", filterProducts);
+
+document.getElementById("ageFilter")
+    .addEventListener("change", filterProducts);
+
+
+// PRODUCT BUTTON
+
+function showProduct(name, price) {
+
+    alert(
+        "Product: " + name +
+        "\nPrice: ₱" + price +
+        "\n\nThank you for checking our product!"
+    );
+
+}
+
+
+// PET FOOD CALCULATOR
+
+function calculateFood() {
+
+    let pet = document.getElementById("petType").value;
+
+    let age = document.getElementById("petAge").value;
+
+    let weight = parseFloat(
+        document.getElementById("petWeight").value
+    );
+
+    let result = document.getElementById("foodResult");
+
+    if (isNaN(weight) || weight <= 0) {
+
+        result.style.display = "block";
+        result.className = "alert alert-warning mt-4";
+        result.innerHTML = "Please enter a valid pet weight.";
+
+        return;
+
+    }
+
+    // Simple illustrative estimates, not veterinary feeding rules.
+
+    let rate;
+
+    if (age === "young") {
+        rate = pet === "dog" ? 50 : 40;
+    } else {
+        rate = pet === "dog" ? 30 : 25;
+    }
+
+    let food = weight * rate;
+
+    result.style.display = "block";
+    result.className = "alert alert-success mt-4";
+
+    result.innerHTML =
+        "<h5>Calculation Result</h5>" +
+        "Pet Type: " + pet.toUpperCase() + "<br>" +
+        "Age Group: " + age.toUpperCase() + "<br>" +
+        "Weight: " + weight + " kg<br>" +
+        "<strong>Illustrative estimate: " +
+        food.toFixed(0) + " grams per day.</strong><br>" +
+        "<small>This is only a classroom demonstration. " +
+        "Check the food label and consult a veterinarian " +
+        "for the correct daily portion.</small>";
+
+}
+
+
+// ADOPTION BUTTON
+
+function adoptionInfo(name) {
+
+    alert(
+        "Thank you for your interest in adopting " + name +
+        "!\n\nPlease contact Pawfect Care for more information " +
+        "about the adoption process."
+    );
+
+}
+
+
+// CONTACT FORM
+
+document.getElementById("contactForm")
+    .addEventListener("submit", function(event) {
+
+        event.preventDefault();
+
+        let name = document.getElementById("name").value;
+
+        document.getElementById("contactResult").innerHTML =
+            "Thank you, " + name +
+            "! Your sample message has been submitted.";
+
+        this.reset();
+
+    });
+
+</script>
+
+</body>
+</html>
